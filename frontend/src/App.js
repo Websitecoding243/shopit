@@ -37,6 +37,7 @@ import ProcessOrder from './components/admin/ProcessOrder';
 import UsersList from './components/admin/UsersList';
 import UpdateUser from './components/admin/UpdateUser';
 import ProductReviews from './components/admin/ProductReviews';
+import Wishlist from './components/user/Wishlist';
 
 import ProtectedRoute from './components/route/ProtectedRoute';
 import { loadUser } from './actions/userActions';
@@ -92,6 +93,7 @@ function App() {
           <Route path="/password/reset/:token" component={NewPassword} exact />
           <ProtectedRoute path="/me" component={Profile} exact />
           <ProtectedRoute path="/me/update" component={UpdateProfile} exact />
+          <ProtectedRoute path="/me/wishlist" component={Wishlist} exact />
           <ProtectedRoute
             path="/password/update"
             component={UpdatePassword}

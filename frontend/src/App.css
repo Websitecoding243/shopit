@@ -167,6 +167,13 @@ footer {
   padding: 0.5rem 2rem;
 }
 
+#wish_btn {
+  border-radius: 2rem;
+  background-color: blue;
+  border: none;
+  padding: 0.5rem 2rem;
+}
+
 #product_seller {
   color: grey;
   font-size: 0.9rem;

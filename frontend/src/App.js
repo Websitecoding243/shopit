@@ -38,6 +38,7 @@ import UsersList from './components/admin/UsersList';
 import UpdateUser from './components/admin/UpdateUser';
 import ProductReviews from './components/admin/ProductReviews';
 import Wishlist from './components/user/Wishlist';
+import CreateCouponPage from './components/admin/coupon/CreateCouponPage';
 
 import ProtectedRoute from './components/route/ProtectedRoute';
 import { loadUser } from './actions/userActions';
@@ -156,6 +157,12 @@ function App() {
           path="/admin/reviews"
           isAdmin={true}
           component={ProductReviews}
+          exact
+        />
+        <ProtectedRoute
+          path="/admin/coupon"
+          isAdmin={true}
+          component={CreateCouponPage}
           exact
         />
 

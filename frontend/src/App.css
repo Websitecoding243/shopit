@@ -46,7 +46,7 @@ nav {
 }
 
 #login_btn,
-#view_btn {
+#coupon_save_btn #view_btn {
   background-color: #febd69;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
@@ -257,6 +257,12 @@ footer {
   background-color: #fa9c23;
   border-color: #fa9c23;
   margin-top: 2rem;
+  border-radius: 5rem;
+}
+
+#coupon_btn {
+  background-color: #fa9c23;
+  border-color: #fa9c23;
   border-radius: 5rem;
 }
 
